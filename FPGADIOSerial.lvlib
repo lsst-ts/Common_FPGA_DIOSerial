@@ -8,11 +8,15 @@
 		<Item Name="DIOSerialPortSettings.ctl" Type="VI" URL="../DataTypes/DIOSerialPortSettings.ctl"/>
 		<Item Name="DIOSerialRxLoopData.ctl" Type="VI" URL="../DataTypes/DIOSerialRxLoopData.ctl"/>
 		<Item Name="DIOSerialRxStates.ctl" Type="VI" URL="../DataTypes/DIOSerialRxStates.ctl"/>
+		<Item Name="DIOSerialTxInstruction.ctl" Type="VI" URL="../DataTypes/DIOSerialTxInstruction.ctl"/>
+		<Item Name="DIOSerialTxInstructionTypes.ctl" Type="VI" URL="../DataTypes/DIOSerialTxInstructionTypes.ctl"/>
 		<Item Name="DIOSerialTxLoopData.ctl" Type="VI" URL="../DataTypes/DIOSerialTxLoopData.ctl"/>
 		<Item Name="DIOSerialTxStates.ctl" Type="VI" URL="../DataTypes/DIOSerialTxStates.ctl"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
+		<Item Name="DIOSerialIRQTriggerLoop.vi" Type="VI" URL="../Support/DIOSerialIRQTriggerLoop.vi"/>
 		<Item Name="DIOSerialRxLoop.vi" Type="VI" URL="../Support/DIOSerialRxLoop.vi"/>
+		<Item Name="DIOSerialTxFIFOUpdateLoop.vi" Type="VI" URL="../Support/DIOSerialTxFIFOUpdateLoop.vi"/>
 		<Item Name="DIOSerialTxLoop.vi" Type="VI" URL="../Support/DIOSerialTxLoop.vi"/>
 	</Item>
 	<Item Name="DIOSerialPort.vi" Type="VI" URL="../DIOSerialPort.vi"/>
